@@ -1,0 +1,40 @@
+.container {
+   display: grid;
+   height: 50vh;
+   grid-template-areas:
+     "A A A A   B B B B   C C C C"
+     "A A A A   D D D D   D D D D"
+     "A A A A   E E E E   F F F F";
+}
+
+.block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   font-weight:bold;
+}
+
+#block-1 {
+   grid-area: A;
+}
+
+#block-2 {
+   grid-area: B;
+}
+
+#block-3 {
+   grid-area: C;
+}
+
+#block-4 {
+   grid-area: D;
+}
+
+#block-5 {
+   grid-area: E;
+}
+
+#block-6 {
+   grid-area: F;
+}
