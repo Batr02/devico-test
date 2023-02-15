@@ -42,7 +42,7 @@ import Worker from './worker.js';
 
 //4
 
-outputElements();
+// outputElements();
 
 //5
 
